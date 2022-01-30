@@ -1,0 +1,91 @@
+.shipmentUpdates {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .shipmentUpdates-container {
+    div {
+      // Firsr Row
+      &:first-of-type {
+        font-size: 16px;
+        color: #bbb;
+        font-weight: 400 !important;
+      }
+      // Second Row
+      &:last-child {
+        font-weight: 900;
+        font-size: 18px;
+        color: #000;
+        margin-top: 5px;
+      }
+    }
+    .ant-divider {
+      margin: 0;
+    }
+    .rowConainer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 1rem;
+    }
+  }
+}
+
+.ant-steps {
+  &-item {
+    &-wait .ant-steps-item-tail,
+    &-active .ant-steps-item-tail,
+    &-finish .ant-steps-item-tail {
+      &::after {
+        width: 100% !important;
+        height: 7px !important;
+        @include respond-below(sm) {
+          height: 100% !important;
+        }
+      }
+    }
+
+    &-finish .ant-steps-item-tail {
+      &::after {
+        background-color: $primary-color !important;
+      }
+    }
+
+    .DELIVERED &-finish .ant-steps-item-tail {
+      &::after {
+        background-color: #059b02 !important;
+      }
+    }
+    .OUT_FOR_DELIVERY &-finish .ant-steps-item-tail {
+      &::after {
+        background-color: #ff0 !important;
+      }
+    }
+    .CANCELLED &-finish .ant-steps-item-tail {
+      &::after {
+        background-color: $primary-color !important;
+      }
+    }
+
+    &-title,
+    &-description {
+      font-weight: 900;
+      font-size: 16px;
+    }
+
+    &-content {
+      margin-top: 2rem !important;
+    }
+    &-tail {
+      @include respond-below(sm) {
+        left: 0 !important;
+        top: 40px !important;
+      }
+    }
+    @include respond-below(sm) {
+      margin: 0 30%;
+      width: 100%;
+    }
+  }
+}

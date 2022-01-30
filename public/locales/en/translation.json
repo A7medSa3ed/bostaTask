@@ -1,0 +1,53 @@
+{
+  "DIR": "ltr",
+  "LANG": "en",
+  "TAB_TITLE": "Bosta | Fastest Delivery Service in Egypt",
+  "NAV_MENU": {
+    "HOME": "Home",
+    "PRICES": "Pricing",
+    "CALL_CENTER": "Contact Sales",
+    "TRACK_SHIPMENT": "Tracking Shipment",
+    "LOG_IN": "Sign in"
+  },
+
+   "SHIPMENT_STATE": {
+    "TICKET_CREATED": "Shipment Created",
+    "PACKAGE_RECEIVED": "Received From Seller",
+    "SHIPMENT_SELLER_CANCEL": "Cancelled From Seller",
+    "OUT_FOR_DELIVERY": "Shipment Out For Delivery",
+    "SHIPMENT_DELIVERED": "Delivered ",
+    "SHIPMENT_CANCELLED": "Shipment Cancelled ",
+    "WAITING_FOR_CUSTOMER_RESPONSE": "Waiting For Customer Response",
+    "RECEIVED_IN_GIVEN_LOCATION": "Received In Given Address",
+    "IN_TRANSIT": "In Transit",
+    "NOT_YET_SHIPPED": "Not Shipped Yet",
+    "DELIVERED": "Delivered"
+  },
+
+  "SHIPMENT_TRACKING": {
+    "TRACK_YOUR_SHIPMENT": "Track Your Shipment",
+    "ENTER_TRACKING_NUMBER":"Enter Your Tracking No.",
+    "WRITE_SHIPMENT_NUMBER_AND_TRACK_IT": "Write Your Shipment Number To Track It",
+    "TRACKING_NUMBER": "Tracking Number.",
+    "LAST_UPDATE": "Last Update",
+    "SELLER_NAME": "Seller Name",
+    "UNKNOWN": "Unknown",
+    "RECEVING_DATE": "Receiving Date",
+    "SHIPMENT_DETAILS": "Shipment Details",
+    "BRANCH": "Branch",
+    "DATE": "Date",
+    "TIME": "Time",
+    "MORE_DETAILS": "More Details",
+    "DELIVERY_ADDRESS": "Delivery Address",
+    "HAVING_PROBLEM": "Having A Problem",
+    "REPORT_PROBLEM": "Report A Problem"
+  },
+  "CUSTOM_ERRORS": {
+    "ENTER_TRACKING_NUMBER": "Please Enter Tracking Number",
+    "TRACK_LENGTH":"Tracking Number Must Be 7 Numbers",
+    "NUM_ONLY": "Please Enter Numbers Only",
+    "NOT_FOUND": "Not Found",
+    "TEACKING_NUMBER_ERROR": "Please Enter Correct Tracking Number",
+    "NETWORK_ERROR":"Please Check Your Connection"
+  }
+}

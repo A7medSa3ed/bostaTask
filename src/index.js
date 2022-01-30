@@ -1,17 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { Suspense } from "react";
+import ReactDOM from "react-dom";
+
+//** Components *//
+import App from "./App";
+import Spinner from "./components/UI/Spinner";
+
+//** Libraries *//
+import { BrowserRouter } from "react-router-dom";
+import "dayjs/locale/ar";
+
+//** Config *//
+import "./i18n";
+
+//** Style *//
+import "antd/dist/antd.variable.min.css";
+import "./assets/styles/index.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Suspense fallback={<Spinner />}>
+        <App />
+      </Suspense>
+    </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

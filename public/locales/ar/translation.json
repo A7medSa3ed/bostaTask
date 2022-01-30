@@ -1,0 +1,53 @@
+{
+  "DIR": "rtl",
+  "LANG": "ar",
+  "TAB_TITLE": "بوسطة | أسرع خدمة توصيل في مصر",
+  "NAV_MENU": {
+    "HOME": "الرئيسية",
+    "PRICES": "الأسعار",
+    "CALL_CENTER": "كلم المبيعات",
+    "TRACK_SHIPMENT": "تتبع شحنتك",
+    "LOG_IN": "تسجيل الدخول"
+  },
+
+   "SHIPMENT_STATE": {
+    "TICKET_CREATED": "تم إنشاء الشحنة",
+    "PACKAGE_RECEIVED": "تم استلام الشحنة من التاجر",
+    "OUT_FOR_DELIVERY": "الشحنة خرجت للتسليم",
+    "SHIPMENT_DELIVERED": "تم التسليم",
+    "SHIPMENT_CANCELLED": "تم الغاء الشحنة",
+    "SHIPMENT_SELLER_CANCEL": "تم الغاء الشحنة من التاجر",
+    "WAITING_FOR_CUSTOMER_RESPONSE": "بانتظار رد العميل",
+    "RECEIVED_IN_GIVEN_LOCATION": "تم استلام موقع التوصيل",
+    "IN_TRANSIT": "في الترانزيت",
+    "NOT_YET_SHIPPED": "لم يتم الشحن بعد",
+    "DELIVERED": "تم التسليم"
+  },
+
+  "SHIPMENT_TRACKING": {
+    "TRACK_YOUR_SHIPMENT": "تتبع شحنتك",
+    "ENTER_TRACKING_NUMBER":"ادخل رقم الشحنة الخاصة بك",
+    "WRITE_SHIPMENT_NUMBER_AND_TRACK_IT": "اكتب رقم الشحنة وتابع شحنتك خطوة بخطوة",
+    "TRACKING_NUMBER": "رقم الشحنة",
+    "LAST_UPDATE": "اخر تحديث",
+    "SELLER_NAME": "اسم التاجر",
+    "UNKNOWN": "غير محدد",
+    "RECEVING_DATE": "موعد التسليم خلال",
+    "SHIPMENT_DETAILS": "تفاصيل الشحنة",
+    "BRANCH": "الفرع",
+    "DATE": "التاريخ",
+    "TIME": "الوقت",
+    "MORE_DETAILS": "تفاصيل",
+    "DELIVERY_ADDRESS": "عنوان التسليم",
+    "HAVING_PROBLEM": "!هل يوجد مشكلة في شحنتك ؟",
+    "REPORT_PROBLEM": "إبلاغ عن مشكلة"
+  },
+  "CUSTOM_ERRORS": {
+    "ENTER_TRACKING_NUMBER": "من فضلك أدخل رقم الشحنة",
+    "TRACK_LENGTH":"رقم الشحنة يجب ان يكون مكون من 7 ارقام",
+    "NUM_ONLY": "يرجي ادخال ارقام فقط",
+    "NOT_FOUND": "لا يوجد نتائج",
+    "TEACKING_NUMBER_ERROR": "من فضلك تأكد من إدخال رقم الشحنة الصحيح",
+    "NETWORK_ERROR":"تاكد من اتصالك بالانترنت"
+  }
+}

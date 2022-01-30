@@ -1,0 +1,80 @@
+.tracking-form {
+  background-color: #ffffff78;
+  padding-block: 10px;
+  p {
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0;
+    color: #000;
+  }
+  h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #aaa;
+  }
+  .formContainre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .trackingForm_search {
+      width: 85%;
+      .search_Input {
+        border-radius: 5px;
+        color: #000;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0 !important;
+        padding: 4px 0 !important;
+        background-color: #e8f0fe;
+        text-indent: 10px;
+        &::placeholder {
+          background-color: #fff;
+        }
+      }
+    }
+    .trackingForm_searchIcon {
+      width: 35px;
+      height: 35px;
+      background-color: $primary-color;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        margin: 0;
+      }
+    }
+  }
+}
+
+// Mobil Tracking Form
+.formContainreMobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .trackingForm_search {
+    width: 85%;
+  }
+  .search_Input {
+    width: 100%;
+    padding-block: 7px;
+    font-size: 16px;
+    color: #aaa;
+  }
+  .trackingForm_searchIcon {
+    width: 30px;
+    height: 30px;
+    background-color: $primary-color;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      margin: 0;
+    }
+  }
+}
+.formError {
+  color: $primary-color;
+  font-size: 16px;
+}

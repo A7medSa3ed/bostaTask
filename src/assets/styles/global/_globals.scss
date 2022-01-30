@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Cairo", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+  @include respond-below(xxl) {
+    width: 85% !important;
+    overflow: scroll;
+  }
+  @include respond-below(lg) {
+    width: 90% !important;
+    overflow: scroll;
+  }
+}
