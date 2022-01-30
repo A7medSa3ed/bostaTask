@@ -1,8 +1,15 @@
-import { Table, Card } from "antd";
-import dayjs from "dayjs";
 import React from "react";
+
+//** Libraries **/
+import dayjs from "dayjs";
+
+//** Hooks **/
 import { useTranslation } from "react-i18next";
+
+//** Styling **/
+import { Table, Card } from "antd";
 import ProblemImage from "../../assets/images/problem.png";
+
 const InfoTable = ({ transitEvents }) => {
   const [t] = useTranslation(["translation"]);
   const lang = t("LANG");
